@@ -25,16 +25,10 @@ A simple task management web application built with PHP and MySQL. Users can reg
 - XAMPP (Apache + MySQL)
 - phpMyAdmin
 
-## Requirements
-
-- XAMPP
-- Apache
-- MySQL
-- phpMyAdmin
-
 ## Setup
 
-1. Clone the repository into the `htdocs` directory of your XAMPP installation.
+1. Install XAMPP.
+2. Clone or download the repository into the `htdocs` directory of your XAMPP installation.
 
    Example:
 
@@ -42,14 +36,12 @@ A simple task management web application built with PHP and MySQL. Users can reg
    C:\xampp\htdocs\todo-app
    ```
 
-2. Start **Apache** and **MySQL** from the XAMPP Control Panel.
-
-3. Import the provided SQL database into phpMyAdmin.
-
-4. Open the application in your browser:
+3. Start **Apache** and **MySQL** from the XAMPP Control Panel.
+4. Import the provided SQL file into phpMyAdmin.
+5. Open the application in your browser:
 
    ```
    http://localhost/todo-app/public/register.php
    ```
 
-5. Register a new account and log in to access the application.
+6. Register a new account and log in to access the application.
